@@ -1,0 +1,53 @@
+/* untuk tablet ukuran maksimum 1000px */
+@media all and (max-width: 1000px) {
+  .header-list {
+    position: relative;
+    left: -80px;
+  }
+  .menu-items {
+    position: relative;
+    right: 50px;
+  }
+
+  .content-left {
+    font-size: 25px;
+    position: relative;
+    top: 130px;
+  }
+
+  .content-right {
+    position: relative;
+    top: -120px;
+    left: 50px;
+  }
+}
+
+/* untuk smartphone ukuran maksimum 670px */
+@media all and (max-width: 670px) {
+  .header-list {
+    display: none;
+  }
+
+  .content-left {
+    position: relative;
+    left: 20px;
+    top: -30px;
+  }
+
+  .content-right {
+    float: left;
+    margin-top: -50px;
+    margin-right: 50px;
+  }
+
+  .content-right img {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 210px;
+  }
+
+  .fa {
+    margin: 35px auto auto 45%;
+  }
+}
