@@ -1,36 +1,68 @@
 /* untuk tablet ukuran maksimum 1000px */
 @media all and (max-width: 1000px) {
-  .h1-content {
+  .header-list {
+    float: right;
     position: relative;
-    top: -10%;
-  }
-
-  .content-left {
-    position: relative;
-    top: -2%;
-  }
-
-  .content-right {
-    position: relative;
-    top: -70%;
-    left: 10%;
+    left: -70px;
+    margin-left: auto;
+    margin-top: -85px;
+    margin-right: auto;
+    margin-bottom: 30px;
   }
 
   .menu-items {
-    display: none;
+    float: right;
     position: relative;
-    left: 60%;
-    top: -60%;
+    top: -80px;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: none;
   }
 
-  .header-list {
-    float: left;
+  .h1-content {
     position: relative;
-    left: -8%;
-    top: -90%;
+    top: -30px;
+  }
+
+  .content-left {
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: -40px;
+    width: 400px;
+    height: 100px;
+  }
+
+  .content-right img {
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 300px;
+    height: 300px;
   }
 }
 
 /* untuk smartphone ukuran maksimum 670px */
 @media all and (max-width: 670px) {
+  .link-sign-in {
+    display: none;
+  }
+
+  .link-sign-up {
+    display: none;
+  }
+
+  .fa {
+    position: relative;
+    top: -55px;
+  }
+
+  .content-left {
+    font-size: 14px;
+    width: 250px;
+  }
+  .content-right img {
+    position: relative;
+    left: 50px;
+  }
 }
