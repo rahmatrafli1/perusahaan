@@ -37,6 +37,8 @@ header {
 
 header .fa {
   margin-right: 5px;
+  font-size: 25px;
+  float: left;
 }
 
 header .logo-items {
